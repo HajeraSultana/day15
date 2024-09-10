@@ -1,8 +1,8 @@
+print("Let's play Sound Safari")
+print()
+print("Press 1 for a cow, 2 for a cat, 3 for a dog, and 4 for a frog.")
 exit = ""
 while exit != "yes":
- print("Let's play Sound Safari")
- print()
- print("Press 1 for a cow, 2 for a cat, 3 for a dog, and 4 for a frog.")
  animal = int(input("Which animal do you want?"))
  if animal == 1:
    print("Moo")
